@@ -64,13 +64,13 @@ nav {
     display: flex;
     align-content: center;
     justify-content: space-between;
-    padding: 20px 50px;
+    padding: 10px 50px;
     border-bottom: 1px solid color(text);
     background: #fff;
 
     .logo {
-        font-size: 20px;
-        font-weight: 600;
+        width:100px;
+        height:100px;
         align-self: center;
     }
 

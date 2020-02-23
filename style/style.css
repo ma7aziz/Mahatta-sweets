@@ -50,14 +50,14 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 20px 50px;
+  padding: 10px 50px;
   border-bottom: 1px solid #2B070A;
   background: #fff;
 }
 
 nav .logo {
-  font-size: 20px;
-  font-weight: 600;
+  width: 100px;
+  height: 100px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
