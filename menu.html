@@ -1,46 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css"/>
+
     <link rel="stylesheet" href="./style/style.css">
-    <title>Document</title>
+    <title>Mahatta Sweets|Menu</title>
 </head>
-<body class="menu-page">
+
+
+<body id="menu-page">
     <nav>
-        <!-- <img src="./mahatta-sweets-1.png" alt="" width="150px" height="150px"> -->
-        <a href="index.html">Mahatta Sweets</a>
-        <ul>
+        <a class="logo animated fadeIn delay-1s" href="index.html">Mahatta Sweets</a>
+        <ul class="animated fadeIn delay-1s">
             <li><a href="https://www.facebook.com/mahattasweets2" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a></li>
             <li><a href="https://www.instagram.com/mahatta_sweets/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
-            <li> <a href="./menu.html">Our Menu</a> </li>
+            
         </ul>
     </nav>
+    <main>
     <div class="gallery">
-        <a href="./menu/0.jpg" data-lightbox="mygallery"><img src="./menu/0.jpg" alt=""></a>
-        <a href="./menu/1.jpg" data-lightbox="mygallery"><img src="./menu/1-small.jpg" alt=""></a>
-        <a href="./menu/2.jpg" data-lightbox="mygallery"><img src="./menu/2-small.jpg" alt=""></a>
-        <a href="./menu/3.jpg" data-lightbox="mygallery"><img src="./menu/3-small.jpg" alt=""></a>
-        <a href="./menu/4.jpg" data-lightbox="mygallery"><img src="./menu/4-small.jpg" alt=""></a>
-        <a href="./menu/5.jpg" data-lightbox="mygallery"><img src="./menu/5-small.jpg" alt=""></a>
-        <a href="./menu/6.jpg" data-lightbox="mygallery"><img src="./menu/6-small.jpg" alt=""></a>
-        <a href="./menu/7.jpg" data-lightbox="mygallery"><img src="./menu/7-small.jpg" alt=""></a>
-        <a href="./menu/8.jpg" data-lightbox="mygallery"><img src="./menu/8-small.jpg" alt=""></a>
-        <a href="./menu/9.jpg" data-lightbox="mygallery"><img src="./menu/9-small.jpg" alt=""></a>
-        
+        <div>
+            <img src="./menu/1.jpeg" alt="">
+        </div>
+        <div>
+            <img src="./menu/2.jpeg" alt="">
+        </div>
+        <div>
+            <img src="./menu/3.jpeg" alt="">
+        </div>
+        <div>
+            <img src="./menu/4.jpeg" alt="">
+        </div>
+        <div>
+            <img src="./menu/5.jpeg" alt="">
+        </div>
+        <div>
+            <img src="./menu/6.jpeg" alt="">
+        </div>
     </div>
+    <div class="mobile-gallery">
+        <div>
+            <img src="./menu/mobile-menu/0.jpg" alt="">
+        </div>
+        <div>
+            <img src="./menu/mobile-menu/1.jpg" alt=""> </div>
+        <div>
+            <img src="./menu/mobile-menu/2.jpg" alt="">
+        </div>
+        <div>
+            <img src="./menu/mobile-menu/3.jpg" alt="">
+        </div>
+        <div>
+            <img src="./menu/mobile-menu/4.jpg" alt="">
+        </div>
+        <div>
+            <img src="./menu/mobile-menu/5.jpg" alt="">
+        </div>
+        <div>
+            <img src="./menu/mobile-menu/6.jpg" alt="">
+        </div>
+        <div>
+            <img src="./menu/mobile-menu/7.jpg" alt="">
+        </div>
+        <div>
+            <img src="./menu/mobile-menu/8.jpg" alt="">
+        </div>
+        <div>
+            <img src="./menu/mobile-menu/9.jpg" alt="">
+        </div>
+        <div>
+            <img src="./menu/mobile-menu/5.jpg" alt="">
+        </div>
+    </div>
+    </main>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js">
+    </script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox-plus-jquery.min.js"></script>
     <script>
-        lightbox.option({
-          'resizeDuration': 200,
-          'wrapAround': true,
-          'alwaysShowNavOnTouchDevices': true,
-          
+        $(document).ready(function () {
+            $('.gallery').slick({
+                arrows: true,
+                cssEase: 'ease-in-out',
+                dots: false,
+                fade: true,
+                mobileFirst: true
+            });
+
+            $('.mobile-gallery').slick({
+                arrows: true,
+                cssEase: 'ease-in-out',
+                fade: true,
+                mobileFirst: true
+            })
         })
     </script>
 </body>
+
 </html>
