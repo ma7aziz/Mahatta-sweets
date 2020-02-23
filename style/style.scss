@@ -8,9 +8,10 @@
 
 // ##12080A
 $colors : ( // primary: #373A46,
-    primary: #2b070a,
+    // primary: #2b070a,
+    primary: #000,
     accent: #fff,
-    text: #2B070A,
+    text: #000,
     primary-light: lighten(#29292f, 40%),
 
     primary-dark: darken(#29292f, 40%),
@@ -25,8 +26,9 @@ $colors : ( // primary: #373A46,
 body {
     font-family: 'Montserrat', sans-serif, ;
     font-size: 16px;
-    // background: linear-gradient(90deg, rgb(73, 72, 72), rgb(27, 27, 27));
+    
     background: color(primary);
+    
 
 }
 
