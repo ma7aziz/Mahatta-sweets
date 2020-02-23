@@ -41,6 +41,13 @@ i {
   font-weight: 500;
 }
 
+.intro {
+  background: url("/ram-ho-6mBwOs9RohM-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 60% 80%;
+}
+
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -50,14 +57,16 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 10px 50px;
-  border-bottom: 1px solid #2B070A;
-  background: #fff;
+  padding: 0 50px;
+}
+
+nav a {
+  color: #fff;
 }
 
 nav .logo {
-  width: 100px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -84,7 +93,6 @@ nav ul li {
 
 nav ul .menu-link {
   padding: 10px;
-  border: 1px solid #2b070a;
 }
 
 @media (max-width: 812px) {
@@ -94,10 +102,6 @@ nav ul .menu-link {
 }
 
 .showcase {
-  background: url("/ram-ho-6mBwOs9RohM-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 60% 80%;
   width: 100%;
   color: #fff;
   display: -webkit-box;
@@ -259,6 +263,10 @@ footer ul li {
       -ms-grid-row-align: center;
       align-self: center;
   padding-right: 10px;
+}
+
+#menu-page {
+  background: #000;
 }
 
 #menu-page main {

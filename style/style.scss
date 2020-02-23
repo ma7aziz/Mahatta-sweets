@@ -60,17 +60,25 @@ i {
     font-weight: 500;
 }
 
+.intro {
+    background: url('/ram-ho-6mBwOs9RohM-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60% 80%;
+}
 nav {
     display: flex;
     align-content: center;
     justify-content: space-between;
-    padding: 10px 50px;
-    border-bottom: 1px solid color(text);
-    background: #fff;
-
+    padding: 0 50px;
+    // border-bottom: 1px solid color(text);
+    // background: #fff;
+    a {
+        color: #fff;
+    }
     .logo {
-        width:100px;
-        height:50px;
+        width:150px;
+        height:150px;
         align-self: center;
     }
 
@@ -88,7 +96,7 @@ nav {
         }
         .menu-link{
             padding: 10px;
-            border: 1px solid color(primary);
+            // border: 1px solid color(primary);
         }
 
     }
@@ -101,10 +109,7 @@ nav {
 }
 
 .showcase {
-    background: url('/ram-ho-6mBwOs9RohM-unsplash.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 60% 80%;
+  
     width: 100%;
     color: color(accent);
     display: flex;
@@ -259,7 +264,8 @@ footer {
 //menu page
 #menu-page {
     // background: color(primry);
-
+    background: #000;
+    
     main {
         background: #000;
         
