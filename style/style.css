@@ -82,7 +82,7 @@ nav ul li {
   font-weight: 500;
 }
 
-nav ul li:first-child {
+nav ul .menu-link {
   padding: 10px;
   border: 1px solid #2b070a;
 }
@@ -284,7 +284,8 @@ footer ul li {
 
 #menu-page .mobile-gallery {
   display: none;
-  margin: 20px auto;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 @media screen and (max-width: 820px) {

@@ -25,22 +25,22 @@
     <main>
     <div class="gallery">
         <div>
-            <img src="./menu/1.jpeg" alt="">
+            <img src="./menu/1.jpg" alt="">
         </div>
         <div>
-            <img src="./menu/2.jpeg" alt="">
+            <img src="./menu/2.jpg" alt="">
         </div>
         <div>
-            <img src="./menu/3.jpeg" alt="">
+            <img src="./menu/3.jpg" alt="">
         </div>
         <div>
-            <img src="./menu/4.jpeg" alt="">
+            <img src="./menu/4.jpg" alt="">
         </div>
         <div>
-            <img src="./menu/5.jpeg" alt="">
+            <img src="./menu/5.jpg" alt="">
         </div>
         <div>
-            <img src="./menu/6.jpeg" alt="">
+            <img src="./menu/6.jpg" alt="">
         </div>
     </div>
     <div class="mobile-gallery">
@@ -97,18 +97,21 @@
     <script>
         $(document).ready(function () {
             $('.gallery').slick({
-                arrows: true,
                 cssEase: 'ease-in-out',
                 dots: false,
-                fade: true,
-                mobileFirst: true
+                fade: true, 
+                autoPlay:true
+
+
             });
 
             $('.mobile-gallery').slick({
                 arrows: true,
                 cssEase: 'ease-in-out',
                 fade: true,
-                mobileFirst: true
+                mobileFirst: true,
+                autoPlay:true,
+                speed:500
             })
         })
     </script>
